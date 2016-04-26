@@ -3,10 +3,6 @@
 
 # weatherlogr by Preston Cammarata (c) 2016
 
-# sudo apt-get install python-pip
-# pip install tweepy
-
-
 import tweepy, time, sys, urllib2, json;
 
 # Variables
