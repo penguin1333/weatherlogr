@@ -1,6 +1,8 @@
 # weatherlogr
 A weather logging system for Twitter, logs every hour.
+
 twitter.com/weatherlogr
+
 cammarata.info/services/weatherlogr
 
 # setup
