@@ -1,5 +1,7 @@
 # weatherlogr
-A weather logging system for Twitter.
+A weather logging system for Twitter, logs every hour.
+twitter.com/weatherlogr
+cammarata.info/services/weatherlogr
 
 # setup
 You need to install python-tweepy, json, and urllib2. All setup instructions are based on CentOS 6.7 minimal but should easily work with other distros of GNU/Linux.
