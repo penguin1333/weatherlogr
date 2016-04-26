@@ -31,7 +31,7 @@ while ( 1 ):
 		api.update_status ( MESSAGE );
 	except:
 		pass
-	time.sleep ( 5 );
+	time.sleep ( 3600 );
 
 # Close the API connection
 _API.close( );
