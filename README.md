@@ -2,16 +2,28 @@
 A weather logging system for Twitter.
 
 # setup
-You need to install python-tweepy, json, and urllib2.
+You need to install python-tweepy, json, and urllib2. All setup instructions are based on CentOS 6.7 minimal but should easily work with other distros of GNU/Linux.
 
 ```
-sudo yum install python-pip
-pip install tweepy
+# sudo yum install python-pip
+# pip install tweepy
 ```
 
-You can then edit rc.local file to run the init.py script, but that is only if you want the script to run on boot, otherwise just run the script in general.
+You have two options as to running this.
 
-You need to fill out the variables in the script to match your Twitter API keys, your Wunderground API keys, and your location you want to be logged.
+Having it run on boot.
+```
+# vi /etc/rc.d/rc.local
+---------------------
+python /path_to_file/init.py
+```
+
+Simply running it.
+```
+python /path_to_file/init.py
+```
+
+You'll also need to register a Twitter account for the logs, and signup for the API, which should take a few minutes. Then signup for the Wunderground API. Once you did this, you just have to go into the init.py script and change the API key variables accordingly.
 
 # license
 read the LICENSE file. do whatever the fuck you want.
