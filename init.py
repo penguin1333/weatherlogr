@@ -27,7 +27,7 @@ while ( 1 ):
 	API        = json.loads ( _API.read ( ) );
 	
 	# Post to Twitter
-	MESSAGE = "weather: %s temp: %s humidity: %s" % ( API['current_observation']['weather'], API['current_observation']['temp_f'], API['current_observation']['relative_humidity'] );
+	MESSAGE = "weather: %s temp: %s humidity: %s wind speed: %s" % ( API['current_observation']['weather'], API['current_observation']['temp_f'], API['current_observation']['relative_humidity'], API['current_observation']['wind_mph'] );
 	try:
 		print "[weatherlogr] logged to twitter";
 		api.update_status ( MESSAGE );

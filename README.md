@@ -31,8 +31,5 @@ python /path_to_file/init.py
 
 You'll also need to register a Twitter account for the logs, and signup for the API, which should take a few minutes. Then signup for the Wunderground API. Once you did this, you just have to go into the init.py script and change the API key variables accordingly.
 
-# bugs
-The wind speed displays 0.0 for some reason. It is probably an array issue with the REST API.
-
 # license
 read the LICENSE file. do whatever the fuck you want.
