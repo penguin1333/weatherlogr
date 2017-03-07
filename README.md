@@ -1,10 +1,6 @@
 # weatherlogr
 A weather logging system for Twitter, logs every hour.
 
-twitter.com/weatherlogr
-
-cammarata.info/services/weatherlogr
-
 # setup
 index.html is the homepage source, and has nothing to do with the service, besides a website. init.py is the file you want to download and have ready to be used.
 
